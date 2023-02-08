@@ -69,12 +69,12 @@ namespace BindsManager
 
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://discord.gg/kognity");
+			System.Diagnostics.Process.Start("https://discord.gg/MhnUYCQbqc");
 		}
 
 		private void pictureBox2_Click(object sender, EventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://discord.gg/kognity");
+			System.Diagnostics.Process.Start("https://discord.gg/MhnUYCQbqc");
 		}
 
 		private void saveButton_Click(object sender, EventArgs e)
@@ -98,7 +98,7 @@ namespace BindsManager
                 if (dialog.ShowDialog() == DialogResult.OK)
                 {
                     var path = dialog.FileName;
-                    var file = dialog.OpenFile();
+                    //var file = dialog.OpenFile();
 
                     using (StreamReader reader = new StreamReader(path))
                     {
@@ -180,7 +180,7 @@ namespace BindsManager
 
 		private void helpbutton_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("There are 3 major types of commands in SCP:SL\n\nFirstly are Remote Admin Commands. They are used either in the text based RA or typed in the game console with a / prefix (\"/tut Kognity\" as an example).\n\nSecondly are Client Commands. They are typed exlusively in the game console and are prefixed with a . (\".ability1\" as an example)\n\nLastly are Game Console Commands. They are locally run commands and are not sent to the server and have no prefix (\"ar\", \"rc\", \"connect SOMEIPADDRESS\" are some notable examples)", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			MessageBox.Show("There are 3 major types of commands in SCP:SL\n\nFirstly are Remote Admin Commands. They are used either in the text based RA or typed in the game console with a / prefix (\"/tut moddedmcplayer\" as an example).\n\nSecondly are Client Commands. They are typed exlusively in the game console and are prefixed with a . (\".ability1\" as an example)\n\nLastly are Game Console Commands. They are locally run commands and are not sent to the server and have no prefix (\"ar\", \"rc\", \"connect SOMEIPADDRESS\" are some notable examples)", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 	}
 }
