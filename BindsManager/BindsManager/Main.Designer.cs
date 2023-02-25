@@ -59,7 +59,7 @@
 			this.autoFillButton.Name = "autoFillButton";
 			this.autoFillButton.Size = new System.Drawing.Size(245, 70);
 			this.autoFillButton.TabIndex = 0;
-			this.autoFillButton.Text = "Auto Fill for \r\nThe\'s Emporium Servers";
+			this.autoFillButton.Text = "Auto Fill for \r\nThe Emporium Servers";
 			this.autoFillButton.UseVisualStyleBackColor = true;
 			this.autoFillButton.Click += new System.EventHandler(this.autoFillButton_Click);
 			// 
